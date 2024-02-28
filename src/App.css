@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: aliceblue;
+}
+.password-generator {
+  max-width: 400px;
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.password-generator h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.input-group,
+.checkbox-group,
+.generate-password {
+  margin-bottom: 15px;
+}
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+.checkbox-group input {
+  margin-right: 10px;
+}
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.generate-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.generate-btn:hover {
+  background-color: #0056b3;
+}
+.generate-password {
+  margin-top: 10px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+input[type="text"] {
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 10px;
+}
+.copy-btn {
+  border: none;
+  padding: 10px;
+  background-color: green;
+  color: #fff;
+}
+.copy-btn:hover {
+  background-color: darkgreen;
+}
+.alert {
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  color: green;
+  margin-left: 220px;
+}
